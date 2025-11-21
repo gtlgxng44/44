@@ -1,27 +1,49 @@
 {
   "expo": {
     "name": "OTC Signals Advanced",
-    "slug": "byte-trading-apk-rzmzx0xgf8ffkfhey50",
+    "slug": "byte-trading-apk-rzmzx0xg8ffkfhey50",
     "version": "1.0.0",
     "orientation": "portrait",
+
     "icon": "./assets/icon.png",
+
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#071428"
     },
+
     "assetBundlePatterns": [
       "**/*"
     ],
+
     "android": {
       "package": "com.otcsignals.advanced",
       "versionCode": 1
     },
-    "ios": {},
+
+    "ios": {
+      "supportsTablet": true
+    },
+
     "extra": {
       "eas": {
-        "projectId": "e59c0540-5fb8-4e8c-aec0-d8d380ab4ccd"
+        "projectId": "e59c65d0"
       }
-    }
+    },
+
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+
+    "sdkVersion": "48.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ]
   }
 }
