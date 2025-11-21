@@ -10,10 +10,18 @@
       "resizeMode": "contain",
       "backgroundColor": "#071428"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "android": {
       "package": "com.otcsignals.advanced",
       "versionCode": 1
+    },
+    "ios": {},
+    "extra": {
+      "eas": {
+        "projectId": "62459e77-8575-4daf-8555-820513623756"
+      }
     }
   }
 }
