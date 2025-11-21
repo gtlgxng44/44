@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "OTC Signals Advanced",
+    "slug": "otc-signals-advanced",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#071428"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "com.otcsignals.advanced",
+      "versionCode": 1
+    }
+  }
+}
